@@ -1,116 +1,96 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 Hello! I'm a passionate Frontend Developer specializing in React, Nodejs, Express and Node. I am a Computer Science student of the University of Carabobo in Venezuela and more recently Software Engineer student of the University Polytechnic Institute 'Santiago Mariño'. apps in Ruby on Rails and JavaScript. Since then,I have been developing mainly with React and TailwindCSS. I am also experienced with the backend, having built sites using PostgreSQL and Ruby.During my free time you can find me scuba diving, hiking, traveling 🐫, going to the beach 🐳, reading fiction and various publications about the newest technology trends and other programming languages, and dabbling in photography 📸. GitHub.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "React Budget app",
+      "startDate": "2022",
+      "description": "I created this budget app for personal finances using react hooks and LocalStorage where you can add different budget categories and expenses, with animated color bars to measure and balance your expenses.",
+      "images": [
+        "images/portfolio/budgetApp2.png",
+        "images/portfolio/budgetApp3.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "React Weather app",
+      "startDate": "2022",
+      "description": "This React weather app was built using the OpenWeatherMap API. I used axios to connect with our API, and successfully consume it in a very simple but fancy UI.",
+      "images": [
+        "images/portfolio/WeatherApp.png",
+        "images/portfolio/WeatherApp2.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "Css"
+        }
+      ]
+    },
+    {
+      "title": "Realtime Chat app",
+      "startDate": "2022",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelance",
+      "title": "Laravel Developer",
+      "years": "01.2021 - 07.2021",
+      "mainTech": [
+        "Laravel 7/8"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Bootstrap",
+        "MDBootstrap",
+        "MySql",
+        "Laravel Dusk"
+      ]
+    }
+  ]
+}

@@ -1,51 +1,26 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+      "description_header": "Hola",
+      "description": "👋 Hola! Soy un apasionado desarrollador de FrontEnd especializado en React, Nodejs, Express and Node. Soy estudiante de Licenciatura en computación en la Universidad de Carabobo en Venezuela y más recientemente estudiante de ingeniería en sistemas en el Instituto Politécnico 'Santiago Mariño'. apps in Ruby on Rails and JavaScript. Since then,I have been developing mainly with React and TailwindCSS. I am also experienced with the backend, having built sites using PostgreSQL and Ruby.During my free time you can find me scuba diving, hiking, traveling 🐫, going to the beach 🐳, reading fiction and various publications about the newest technology trends and other programming languages, and dabbling in photography 📸. GitHub.",     "section_name": {
+        "about": "Acerca de mi",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "React Budget app",
+        "startDate": "2021",
+        "description": "Creé esta aplicación de presupuesto para finanzas personales usando React Hooks y LocalStorage donde puedes agregar diferentes categorías de presupuesto y gastos, con barras de colores animadas para medir y equilibrar tus gastos.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/budgetApp2.png",
+          "images/portfolio/budgetApp3.png"
         ],
-        "url": "",
+        "url": "https://oswaldev.github.io/React-Budget-App/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-plain",
             "name": "React"
           },
           {
@@ -55,7 +30,31 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
+        "title": "React Weather app",
+        "startDate": "2022",
+        "description": "Esta aplicación del clima en react se creó usando la API de OpenWeatherMap. Usé axios para conectarme con dicha API y consumirla con éxito en una interfaz de usuario muy simple pero elegante.",
+        "images": [
+          "images/portfolio/WeatherApp.png",
+          "images/portfolio/WeatherApp2.png"
+        ],
+        "url": "https://react-weather-app-lime.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Css"
+          }
+        ]
+      },
+      {
+        "title": "Realtime Chat app",
         "startDate": "2015",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
@@ -71,47 +70,25 @@
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Freelance",
+        "title": "Laravel Developer",
+        "years": "01.2021 - 07.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "Laravel 7/8"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
+          "PHP",
+          "Laravel",
           "Bootstrap",
           "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "MySql",
+          "Laravel Dusk"
         ]
       }
     ]
