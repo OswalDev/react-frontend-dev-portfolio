@@ -35,8 +35,8 @@
       "startDate": "2022",
       "description": "This React weather app was built using the OpenWeatherMap API. I used axios to connect with our API, and successfully consume it in a very simple but fancy UI.",
       "images": [
-        "images/portfolio/WeatherApp.png",
-        "images/portfolio/WeatherApp2.png"
+        "images/portfolio/weatherApp.png",
+        "images/portfolio/weatherApp2.png"
       ],
       "url": "https://github.com",
       "technologies": [

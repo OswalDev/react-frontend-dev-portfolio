@@ -34,8 +34,8 @@
         "startDate": "2022",
         "description": "Esta aplicación del clima en react se creó usando la API de OpenWeatherMap. Usé axios para conectarme con dicha API y consumirla con éxito en una interfaz de usuario muy simple pero elegante.",
         "images": [
-          "images/portfolio/WeatherApp.png",
-          "images/portfolio/WeatherApp2.png"
+          "images/portfolio/weatherApp.png",
+          "images/portfolio/weatherApp2.png"
         ],
         "url": "https://react-weather-app-lime.vercel.app/",
         "technologies": [
