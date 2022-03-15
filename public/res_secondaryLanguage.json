@@ -18,7 +18,7 @@
         "images/portfolio/budgetApp2.png",
         "images/portfolio/budgetApp3.png"
       ],
-      "url": "",
+      "url": "https://oswaldev.github.io/React-Budget-App/",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -38,7 +38,7 @@
         "images/portfolio/weatherApp.png",
         "images/portfolio/weatherApp2.png"
       ],
-      "url": "https://github.com",
+      "url": "https://react-weather-app-lime.vercel.app/",
       "technologies": [
         {
           "class": "devicon-react-original",
