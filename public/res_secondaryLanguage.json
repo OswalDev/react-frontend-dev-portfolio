@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 Hello! I'm a passionate Frontend Developer specializing in React, Nodejs, Express and Node. I am a Computer Science student of the University of Carabobo in Venezuela and more recently Software Engineer student of the University Polytechnic Institute 'Santiago Mariño'. apps in Ruby on Rails and JavaScript. Since then,I have been developing mainly with React and TailwindCSS. I am also experienced with the backend, having built sites using PostgreSQL and Ruby.During my free time you can find me scuba diving, hiking, traveling 🐫, going to the beach 🐳, reading fiction and various publications about the newest technology trends and other programming languages, and dabbling in photography 📸. GitHub.",
+    "description": "👋 Hello! I am a passionate FrontEnd developer specializing in React, MongoDB, Express and Node(MERN Stack). I also have knowledge in PHP, Laravel, MySQL and REST/RESTful APIs. My passion for learning and technology have led me to discover the beautiful world of development. Now I find myself navigating this immense world of IT, facing new challenges every day in order to improve my skills as a developer and grow as a professional, giving 100% of myself to offer better solutions to any problem. I believe that teamwork and communication are key to carrying out any project successfully. If you like my work and want me to develop your project or be part of your company or work team, do not hesitate to contact me.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -18,7 +18,8 @@
         "images/portfolio/budgetApp2.png",
         "images/portfolio/budgetApp3.png"
       ],
-      "url": "https://oswaldev.github.io/React-Budget-App/",
+      "repo": "https://github.com/OswalDev/React-Budget-App",
+      "demo": "https://oswaldev.github.io/React-Budget-App/",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -38,7 +39,8 @@
         "images/portfolio/weatherApp.png",
         "images/portfolio/weatherApp2.png"
       ],
-      "url": "https://react-weather-app-lime.vercel.app/",
+      "repo": "https://github.com/OswalDev/React-Weather-App",
+      "demo": "https://react-weather-app-lime.vercel.app/",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -55,14 +57,15 @@
       ]
     },
     {
-      "title": "Realtime Chat app",
+      "title": "Expense tracker FullStack",
       "startDate": "2022",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "This react expense tracking app was built using Hooks and Context API, a back-end API with Express and MongoDB. It allows you to keep a permanent control of your expenses and income, in a simple but dynamic interface.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/expenseTracker.png",
+        "images/portfolio/expenseTracker3.png"
       ],
-      "url": "https://github.com",
+      "repo": "https://github.com/OswalDev/expense-tracker",
+      "demo": "",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",

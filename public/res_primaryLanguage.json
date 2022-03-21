@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hola",
-      "description": "👋 Hola! Soy un apasionado desarrollador de FrontEnd especializado en React, Nodejs, Express and Node. Soy estudiante de Licenciatura en computación en la Universidad de Carabobo en Venezuela y más recientemente estudiante de ingeniería en sistemas en el Instituto Politécnico 'Santiago Mariño'. apps in Ruby on Rails and JavaScript. Since then,I have been developing mainly with React and TailwindCSS. I am also experienced with the backend, having built sites using PostgreSQL and Ruby.During my free time you can find me scuba diving, hiking, traveling 🐫, going to the beach 🐳, reading fiction and various publications about the newest technology trends and other programming languages, and dabbling in photography 📸. GitHub.",     "section_name": {
+      "description": "👋 Hola! Soy un apasionado desarrollador de FrontEnd especializado en React, MongoDB, Express y Node(MERN Stack). Tambien poseo conocimiento en PHP, Laravel, MySQL y APIs REST/RESTful. Mi pasión por el aprendizaje y la tecnología me han llevado a conocer el hermoso mundo del desarrollo. Ahora me encuentro navegando este inmenso mundo del TI, enfrentandome a nuevos retos cada día con el fin de mejorar mis capacidades como desarollador y crecer como profesional, aportando el 100% de mi para ofrecer mejores soluciones a cualquier problema planteado. Considero que el trabajo en equipo y la comunicación son claves para llevar a cabo cualquier proyecto de forma exitosa. Si te gusta mi trabajo y quieres que desarrolle tu proyecto o forme parte de tu empresa o equipo de trabajo, no dudes en contactarme.",     "section_name": {
         "about": "Acerca de mi",
         "projects": "Proyectos",
         "skills": "Habilidades",
@@ -17,7 +17,8 @@
           "images/portfolio/budgetApp2.png",
           "images/portfolio/budgetApp3.png"
         ],
-        "url": "https://oswaldev.github.io/React-Budget-App/",
+        "repo": "https://github.com/OswalDev/React-Budget-App",
+        "demo": "https://oswaldev.github.io/React-Budget-App/",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -37,7 +38,8 @@
           "images/portfolio/weatherApp.png",
           "images/portfolio/weatherApp2.png"
         ],
-        "url": "https://react-weather-app-lime.vercel.app/",
+        "repo": "https://github.com/OswalDev/React-Weather-App",
+        "demo": "https://react-weather-app-lime.vercel.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -56,21 +58,31 @@
       {
         "title": "Expense tracker FullStack",
         "startDate": "2022",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Esta aplicación de registro de gastos en react se creó usando Hooks y Context API, Un API de backend con Express y MongoDB. Te permite llevar un control permanente de tus gastos e ingresos, en una interfaz sencilla, pero dinámica.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/expenseTracker.png",
+          "images/portfolio/expenseTracker3.png"
         ],
-        "url": "https://github.com",
+        "repo": "https://github.com/OswalDev/expense-tracker",
+        "demo": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
           }
+          
         ]
       }
     ],
