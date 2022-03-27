@@ -84,6 +84,31 @@
           }
           
         ]
+      },
+      {
+        "title": "Firebase Chat App",
+        "startDate": "2022",
+        "description": "Creé esta aplicación de chat en tiempo real que utiliza React y firebase (aplicación de back-end) para almacenar mensajes, posee un filtro de protección contra malas palabras (usuarios malvados) e inicio de sesión con la autenticación de Google",
+        "images": [
+          "images/portfolio/firebase-chat-app.png",
+          "images/portfolio/firebase-chat-app2.png"
+        ],
+        "repo": "https://github.com/OswalDev/React-Firebase-Chat-App",
+        "demo": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Google OAuth"
+          }
+        ]
       }
     ],
     "experience": [

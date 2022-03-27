@@ -68,12 +68,45 @@
       "demo": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-plain",
+          "name": "React"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "Firebase Chat App",
+      "startDate": "2022",
+      "description": "I created this real-time chat app that uses React and firebase (back-end app) to store messages, it has a protection filter against bad words(evil users) and login with google authentication",
+      "images": [
+        "images/portfolio/firebase-chat-app.png",
+        "images/portfolio/firebase-chat-app2.png"
+      ],
+      "repo": "https://github.com/OswalDev/React-Firebase-Chat-App",
+      "demo": "",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-google-plain",
+          "name": "Google OAuth"
         }
       ]
     }
